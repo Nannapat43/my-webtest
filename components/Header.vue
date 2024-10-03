@@ -1,6 +1,6 @@
 <template>
-  <v-app-bar app color="white" dark flat class="px-12">
-    <div></div>
+  <v-app-bar app color="white " dark flat class="px-12">
+    <h1 class="text-blue font-bold">WODOTECH</h1>
     <v-spacer></v-spacer>
     <div class="text-black mb-4 mr-7 menu-button" @click="navigateTo('/')">
       หน้าแรก
@@ -8,10 +8,16 @@
     <div class="text-black mb-4 mr-7 menu-button" @click="navigateTo('/about')">
       บริการของเรา
     </div>
-    <div class="text-black mb-4 mr-7 menu-button" @click="navigateTo('projects')">
+    <div
+      class="text-black mb-4 mr-7 menu-button"
+      @click="navigateTo('projects')"
+    >
       เกี่ยวกับเรา
     </div>
-    <div class="text-black mb-4 mr-7 menu-button" @click="navigateTo('contact')">
+    <div
+      class="text-black mb-4 mr-7 menu-button"
+      @click="navigateTo('contact')"
+    >
       ติดต่อเรา
     </div>
   </v-app-bar>
@@ -21,11 +27,11 @@
 export default {
   methods: {
     scroll(refName) {
-      const element = document.getElementById(refName)
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
-  }
-}
+      const element = document.getElementById(refName);
+      element.scrollIntoView({ behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style scoped>
