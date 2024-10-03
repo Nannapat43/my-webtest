@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <v-app-bar app color="white" dark flat class="px-12">
     <div></div>
     <v-spacer></v-spacer>
@@ -57,4 +57,4 @@ export default {
 .menu-button:hover::after {
   transform: scaleX(1); /* Full-width underline animation */
 }
-</style> -->
+</style>
